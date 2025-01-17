@@ -1,0 +1,26 @@
+.nav{
+    width: 100vw;
+    height: 13vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+}
+.nav .contacts img{
+    width: 20px;
+    height: 20px;
+}
+.nav .contacts ul{
+    list-style-type: none;
+}
+.nav .contacts ul li{
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 50px;
+    font-size: larger;
+}
