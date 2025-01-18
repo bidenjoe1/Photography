@@ -1,6 +1,6 @@
 .banner {
     height: 100vh;
-    background: url(../Downloads/zebra.jpg) no-repeat center center/cover;
+    background: url(zebra.jpg) no-repeat center center/cover;
     color: white;
     display: flex;
     justify-content: center;
