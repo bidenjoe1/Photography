@@ -1,0 +1,56 @@
+.about {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    background: linear-gradient(145deg, #e0e0e0, #ffffff);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about p {
+    font-size: 19px;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.8;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Georgia', serif;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 30px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about .cta-button {
+    background-color: #ff7f50;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.about .cta-button:hover {
+    background-color: #ff6347;
+}

@@ -1,0 +1,33 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.nav .logo img {
+    height: 50px;
+}
+
+.nav .contacts ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav .contacts li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.nav .contacts img {
+    height: 20px;
+}
